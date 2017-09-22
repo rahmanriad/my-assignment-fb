@@ -1,0 +1,252 @@
+*{margin:0; padding:0;}
+.banner{
+	width:100%;
+	overflow:hidden;
+	background-color: #3b5998;
+	background-image: linear-gradient(#4e69a2, #3b5998 50%);
+	border-bottom: 1px solid #133783;
+	min-height: 82px;
+}
+.content{
+	width:100%;
+	min-height:600px;
+	background-color:#F0F1F7;
+	overflow:hidden;
+}
+.footer{
+	width:100%;
+	height:160px;
+	background-color:white;
+	overflow: hidden;
+}
+.wrapper{
+	margin:0 auto;
+	width:90%;
+}
+.logo{
+	float:left;
+	margin-top:30px;
+	margin-left:9.6%;
+
+}
+.login{
+	float:right;
+	margin-top:11px;
+	margin-right:9.7%;
+	
+}
+.content1{
+	float: left;
+	margin-top:40px;
+	margin-left:9.7%;
+	font-size:20px;
+	width:40%;
+	font-family:'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	color:#0e385f;
+	line-height: 29px;
+	word-spacing: -1px;
+}
+.content2{
+	float:right;
+	margin-right:2.6%;
+	margin-top:22px;
+	width:40%
+}
+.footer_bottom{
+	clear: both;
+}
+#txt{
+	font:36px 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #1d2129;
+}
+#txt1{
+	font:19px 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	margin-top:8px;
+	color:#1d2129;
+	font-weight: normal;
+}
+.email{
+	float:left;
+}
+.password{
+	float:right;
+	margin-left:15px;
+}
+input[type=email],input[type=password]{
+	padding:3px;
+	border:1px solid #1d2129;
+	margin-top: 5px;
+	width: 142px;
+	font-size: 12px;
+}
+label[for=email],label[for=password]{
+	color:white;
+	font:12px 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	margin:4px 0;
+}
+.blogin{
+	border-radius: 2px;
+	font-weight: bold;
+	padding: 2px 6px;
+	background-color: #4267b2;
+    border-color: #29487d;
+	color:white;
+	font:12px 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	margin-left:10px;
+	cursor: pointer;
+}
+.for{
+	color:#8CB4C4;
+	font:12px 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	text-decoration:none;
+}
+input[type=text]{
+	padding:7px 10px;
+	width:170px;
+	margin:0 5px;
+	margin-left: 0px;
+	font-size: 18px;
+	border:1px solid #BDC7D8;
+	border-radius: 5px;
+}
+input[type=text1]{
+	padding:7px 10px;
+	width:170px;
+	margin:5px 2px;
+	font-size: 18px;
+	border:1px solid #BDC7D8;
+	border-radius: 5px;
+}
+input[type=text2]{
+	padding:7px 10px;
+	width:376px;
+	margin:5px 0px;
+	font-size: 18px;
+	border:1px solid #BDC7D8;
+	border-radius: 5px;
+}
+input[name=password1]{
+	padding:7px 10px;
+	width:376px;
+	margin:5px 0px;
+	font-size: 18px;
+	border:1px solid #BDC7D8;
+	border-radius: 5px;
+}
+.bday{
+	margin-top:7px;
+	height:30px;
+	padding: 5px;
+	font-size: 13px;
+	border:1px solid #bdc7d8;
+
+}
+.birthday{
+	color:#1d2129;
+	font:18px 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	margin-top:15px;
+}
+.radio{
+	margin-top: 20px;
+	margin-left:10px
+}
+.p{
+	color:#777;
+	font:11px 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	width:316px;
+	margin-top: 10px;
+}
+.gender{
+	color:#1d2129;
+	font:18px 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	margin-top:6px;
+}
+.comment{
+	color:#365899;
+    display: inline-block;
+	font:11px 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	margin-left:8px;
+	margin-top:5px;
+	text-decoration: none;
+}
+	
+.submit{
+	padding: 7px 20px;
+	min-width:194px;
+    background-color:#5F944A;
+    border-color:#5F944A; 
+    margin-top:20px;
+    font: 19px 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold;
+    color:#fff;
+    border-radius: 6px;
+}
+
+	
+a{
+	color:#365899;
+	font:11px 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	max-width:140px;
+	text-decoration:none;
+}
+.p1{
+	color: #666;
+    font:13px 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	margin-top: 40px;
+}
+.a2{
+	font:13px 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+.name{
+	margin-top:17px;
+}
+.table-data{
+	color:#365899;
+	font:12px 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	text-align: left;
+	line-height:20px;
+	white-space: nowrap;
+	direction:ltr;
+	letter-spacing: inherit;
+	max-width:50px;
+	clear: both;
+	position: static;
+}
+.tda{
+	font:12px 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+}
+.footer-break{
+	border-bottom: 1px solid #dddfe2;
+	font-size: 1px;
+	height: 8px;
+	margin-bottom: 8px;
+	width:980px;
+	margin-left:110px;
+}
+.table{
+	width:980px;
+	margin-left:110px;
+}
+.table1{
+	width:800px;
+	margin-left:110px;
+
+}
+#lang{
+	color:#90949c;
+	margin-right: 4px;
+}
+.bt1{
+	width:30px;
+}
+.end{
+	color:#90949c;
+	margin-left:110px;
+	font:11px 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+}
